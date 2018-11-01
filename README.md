@@ -1,0 +1,1 @@
+This is a standart boilerplate, build with laravel-mix.
