@@ -15,7 +15,7 @@ mix.js('src/assets/js/scripts.js', 'public/js/')
     .sass('src/assets/sass/styles.scss', 'public/css/')
     .copy('src/**/*.html', 'public/')
     .browserSync({
-        proxy: 'laravel-mix-boilerplate.localhost/public',
+        proxy: 'vue-todo-test.localhost/public',
         files: ['public/**/*.html', 'public/css/**/*.css', 'public/js/**/*.js']
     });
 
